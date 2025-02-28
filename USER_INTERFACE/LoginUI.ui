@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginUI</class>
+ <widget class="QWidget" name="LoginUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Login - GoFinance</string>
+  </property>
+  <layout class="QHBoxLayout" name="mainLayout">
+   <item>
+    <widget class="QFrame" name="leftFrame">
+     <property name="styleSheet">
+      <string>background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #0066FF, stop:1 #003399); border-top-left-radius: 20px; border-bottom-left-radius: 20px;</string>
+     </property>
+     <layout class="QVBoxLayout" name="leftLayout">
+      <item>
+       <widget class="QLabel" name="title">
+        <property name="text">
+         <string>GoFinance</string>
+        </property>
+        <property name="styleSheet">
+         <string>color: white; font-size: 20px; font-weight: bold;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="subtitle">
+        <property name="text">
+         <string>The most popular peer to peer lending at SEA</string>
+        </property>
+        <property name="styleSheet">
+         <string>color: white; font-size: 12px;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="readMoreBtn">
+        <property name="text">
+         <string>Read More</string>
+        </property>
+        <property name="styleSheet">
+         <string>background-color: white; color: #0066FF; border-radius: 15px; padding: 8px;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="rightFrame">
+     <property name="styleSheet">
+      <string>background: white; border-top-right-radius: 20px; border-bottom-right-radius: 20px;</string>
+     </property>
+     <layout class="QVBoxLayout" name="rightLayout">
+      <item>
+       <widget class="QLabel" name="helloLabel">
+        <property name="text">
+         <string>Hello Again!</string>
+        </property>
+        <property name="styleSheet">
+         <string>color: #333; font-size: 18px; font-weight: bold;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="welcomeLabel">
+        <property name="text">
+         <string>Welcome Back</string>
+        </property>
+        <property name="styleSheet">
+         <string>color: gray; font-size: 12px;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="emailInput">
+        <property name="placeholderText">
+         <string>Email Address</string>
+        </property>
+        <property name="styleSheet">
+         <string>border: 1px solid lightgray; border-radius: 20px; padding: 10px;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="passwordInput">
+        <property name="placeholderText">
+         <string>Password</string>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+        <property name="styleSheet">
+         <string>border: 1px solid lightgray; border-radius: 20px; padding: 10px;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="loginButton">
+        <property name="text">
+         <string>Login</string>
+        </property>
+        <property name="styleSheet">
+         <string>background-color: #0066FF; color: white; border-radius: 20px; padding: 10px;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="forgotLabel">
+        <property name="text">
+         <string>Forgot Password</string>
+        </property>
+        <property name="styleSheet">
+         <string>color: gray; text-decoration: underline; cursor: pointer;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
